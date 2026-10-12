@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nodrits.github.io/nodrits-website/sitemap.xml
