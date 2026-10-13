@@ -108,7 +108,7 @@
       data.append('_template', 'table');
       data.append('_captcha', 'false');
       data.append('_honey', '');
-      fetch('https://formsubmit.co/ajax/nodritsolutions@gmail.com', {method:'POST', body:data, headers:{'Accept':'application/json'}})
+      fetch('https://formsubmit.co/ajax/nodritssolutions@gmail.com', {method:'POST', body:data, headers:{'Accept':'application/json'}})
         .then(function(r){ if(!r.ok) throw new Error('send failed'); return r.json(); })
         .then(function(){
           form.innerHTML = '<div style="padding:32px 8px;text-align:center"><p style="font-size:2rem">✅</p><h3 style="margin:12px 0 8px">Enquiry sent!</h3><p style="color:var(--dim)">Thanks ' + name.replace(/</g,'&lt;') + ' — we\'ll get back to you on WhatsApp/email shortly.</p></div>';
